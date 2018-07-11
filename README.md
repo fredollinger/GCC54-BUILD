@@ -2,6 +2,16 @@
 
 A script to build gcc-5.4 from scratch.
 
+## Why Do This?
+
+Most people probably don't want to build their own toolchain.  
+
+You might be interested if but if you're interested in customizing your version
+of gcc, if your distro does not have this version and you need it or if you'd
+just like to learn an experiment with open source compilers.
+
+I really enjoyed getting this to work. 
+
 ## What This Does
 
 This will try to build gcc-5.4 from scratch and install it in /usr/local/x86_64-local-gcc-5.4.0.
